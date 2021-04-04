@@ -71,4 +71,8 @@ public class MiniMarket {
 	public void setAmountOfTries(int amountOfTries) {
 		this.amountOfTries = amountOfTries;
 	}
+	
+	public ArrayList<Person> getSuccesfillEntries(){
+		return succesfullEntries;
+	}
 }
